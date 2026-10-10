@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="color-scheme" content="light only">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Apps | Max Weberman</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Khand:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header class="top"><div class="wrap bar"><span class="wordmark">MAX WEBERMAN</span>
+  <div class="bar-right"><span id="clock" class="label"></span><button id="refresh" class="btn sm mw-hover">Refresh</button></div></div></header>
+<main class="wrap">
+  <div class="headrow"><h1>App Hub</h1>
+    <label class="label sortlbl">Sort <select id="sort" aria-label="Sort Apps"><option value="default">Brief App First</option><option value="az">Name A-Z</option><option value="recent">Last Update</option><option value="asks">Open Asks</option></select></label></div>
+  <p id="msg" class="muted">Live apps. Last update comes from GitHub. Open asks come from the Brief App on this device.</p>
+  <section id="tiles" class="tiles"></section>
+</main>
+<div class="sharebar"><button id="share" class="btn share mw-hover" aria-label="Share App Hub">Share</button></div>
+<footer class="foot"><div class="wrap">MAX WEBERMAN · App Hub</div></footer>
+<script src="apps.js"></script><script src="app.js"></script>
+</body></html>
